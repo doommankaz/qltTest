@@ -355,28 +355,28 @@ body {
 
 
 .footer_img1 {
-    background: url(/assets/images/building1.jpg);
+    background: url(../images/building1.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
 }
 
 .footer_img2 {
-    background: url(./images/building2.jpg);
+    background: url(../images/building2.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
 }
 
 .footer_img3 {
-    background: url(images/building3.jpg);
+    background: url(../images/building3.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
 }
 
 .footer_img4 {
-    background: url(/images/building4.jpg);
+    background: url(../images/building4.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
