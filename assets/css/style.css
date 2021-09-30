@@ -300,7 +300,8 @@ body {
 }
 
 .program_logo {
-    float: left;
+    position: absolute;
+    left: 0;
     padding-top: 451px;
 }
 
