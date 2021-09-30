@@ -274,7 +274,7 @@ body {
 .programConference {
 
     min-height: 100vh;
-    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%), url(../images/footer-bg.svg) 100% 100% no-repeat;
+    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%), url(../images/svg/footer-bg.svg) 100% 100% no-repeat;
     background-blend-mode: multiply;
     padding-top: 78.17px;
 
@@ -290,6 +290,73 @@ body {
     padding-bottom: 21.63px;
 }
 
+.programConference_right {
+    position: absolute;
+    right: 0;
+    width: 223.3px;
+    height: 50px;
+    border: 1px solid #DBA682;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programConference_date {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.programConference_date_button {
+    padding: 0;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #D8D8EB;
+    height: 40px;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: bold;
+    color: #D8D8EB;
+}
+
+.programConference_date_button:hover {
+    padding: 0;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #DBA682;
+    color: #DBA682;
+}
+
+.programConference_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+
+.programConference_button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: #DBA682;
+    text-decoration: none;
+}
+
+.programConference_date_button {
+    background-color: white;
+}
+
+.programConference_right:hover,
+.programConference_right:focus,
+.programConference_right:active {
+    opacity: .75;
+}
+
 .programConference_box {
     margin-top: 72.79px;
     width: 1170px;
@@ -297,12 +364,103 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(149, 149, 149, 0.1);
     margin-bottom: 17.19px;
+    padding-top: 60.34px;
+}
+
+.programConference_block1 {
+    border: 1px solid #E8E8F3;
+    box-sizing: border-box;
+    width: 1030px;
+    margin: auto;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 13.81px;
+    padding-bottom: 8.76px;
+}
+
+.programConference_block2 {
+    border: 1px solid #E8E8F3;
+    border-top: none;
+    box-sizing: border-box;
+    width: 1030px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 26.09px;
+    padding-right: 34.39px;
+    padding-bottom: 22.88px;
+    margin-bottom: 26.19px;
+}
+
+.programConference_block2_title {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 12.69px;
+}
+
+.programConference_icon {
+    position: absolute;
+    right: 0;
+}
+
+.programConference_block2_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.programConference_block1_info1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-right: 40px;
+}
+
+.programConference_block1_info2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #001122;
+}
+
+.programConference_block1_text1 {
+    color: #DBA682;
 }
 
 .program_logo {
     position: absolute;
     left: 0;
     padding-top: 451px;
+}
+
+.programConference_box_button_wrap {
+    margin: auto;
+    width: 223.3px;
+}
+
+.programConference_box_button {
+    background: #DBA682;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    width: 223.3px;
+    height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.programConference_box_button:hover,
+.programConference_box_button:focus,
+.programConference_box_button:active {
+    opacity: .75;
 }
 
 /*Program Conference End*/
