@@ -274,7 +274,7 @@ body {
 .programConference {
 
     min-height: 100vh;
-    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%), url(./assets/images/svg/footer-bg.svg) 100% 100% no-repeat;
+    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%), url(./footer-bg.svg) 100% 100% no-repeat;
     background-blend-mode: multiply;
     padding-top: 78.17px;
 
