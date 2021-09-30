@@ -274,7 +274,7 @@ body {
 .programConference {
 
     min-height: 100vh;
-    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%), url(./footer-bg.svg) 100% 100% no-repeat;
+    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%), url(../images/footer-bg.svg) 100% 100% no-repeat;
     background-blend-mode: multiply;
     padding-top: 78.17px;
 
@@ -362,21 +362,21 @@ body {
 }
 
 .footer_img2 {
-    background: url(/assets/images/building2.jpg);
+    background: url(./images/building2.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
 }
 
 .footer_img3 {
-    background: url(./assets/images/building3.jpg);
+    background: url(images/building3.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
 }
 
 .footer_img4 {
-    background: url(./assets/images/building4.jpg);
+    background: url(/images/building4.jpg);
     width: 270px;
     height: 400.82px;
     position: relative;
